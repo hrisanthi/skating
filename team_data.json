@@ -1,0 +1,83 @@
+[
+    {
+    "pk": 1,
+    "model": "skating.TeamEvent",
+    "fields": {
+        "event": "Team Men Short Program",
+        "score": 65.65,
+        "team_score": 4
+        }
+    },
+    
+    {
+    "pk": 2,
+    "model": "skating.TeamEvent",
+    "fields": {
+        "event": "Team Pairs Short Program",
+        "score": 64.25,
+        "team_score": 6
+        }
+    },
+    
+    {
+    "pk": 3,
+    "model": "skating.TeamEvent",
+    "fields": {
+        "event": "Team Ice Dance Short Dance",
+        "score": 75.89,
+        "team_score": 10
+        }
+    },
+    
+    {
+    "pk": 4,
+    "model": "skating.TeamEvent",
+    "fields": {
+        "event": "Team Ladies Short Program",
+        "score": 63.10,
+        "team_score": 7
+        }
+    },
+    
+    {
+    "pk": 5,
+    "model": "skating.TeamEvent",
+    "fields": {
+        "event": "Team Pairs Free Skating",
+        "score": 117.94,
+        "team_score": 7
+        }
+    },
+    
+    {
+    "pk": 6,
+    "model": "skating.TeamEvent",
+    "fields": {
+        "event": "Team Men Free Skating",
+        "score": 153.67,
+        "team_score": 7
+        }
+    },
+    
+    {
+    "pk": 7,
+    "model": "skating.TeamEvent",
+    "fields": {
+        "event": "Team Ladies Free Skating",
+        "score": 129.38,
+        "team_score": 9
+        }
+    },
+    
+    {
+    "pk": 8,
+    "model": "skating.TeamEvent",
+    "fields": {
+        "event": "Team Ice Dance Free Dance",
+        "score": 114.34,
+        "team_score": 10
+        }
+    }
+]
+    
+ 

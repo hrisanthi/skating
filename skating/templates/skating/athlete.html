@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<div id="bio">
+    <div class="col-md-12">
+        <h1> Athlete: <br><h2>{{athlete.name}}</h2></br></h1>
+        
+        <ul>
+            <img src="{{ athlete.img }}">
+            <li><h5> Gender: <h4>{{ athlete.gender}}</h4></h5></li>
+            <li><h5> Age: <h4>{{ athlete.age}}</h4></h5></li>
+            <li><h5> Birthplace: <h4>{{ athlete.birthplace}}</h4></h5></li>
+            <li><h5> Birthday: <h4>{{ athlete.birthday}}</h4></h5></li>
+            <li><h5> Medal: <h4>{{ athlete.medal}}</h4></h5></li>
+            
+        </ul>
+    </div>
+</div>
+
+<div id="indiv">
+    <div class="col-md-4">
+        <h3>Individual Event</h3>
+        <h2>{{athlete.indiv_event}}</h2>
+        <br>
+        <h3>Short Program</h3>
+        <ul class="short">
+            <h2>Score</h2>
+            <h4 style="font-size: 50px">{{athlete.indiv_short_score}}</h4>
+            <li style="position: relative; bottom: 90px; left: 150px"><h2>Place</h2>
+            <h4 style="font-size: 50px">{{athlete.indiv_short_place}}</h4></li>
+        </ul>
+        <br>
+        <ul class="free">
+            <h3>Free Style</h3>
+            <h2>Score</h2>
+            <h4 style="font-size: 50px">{{athlete.indiv_free_score}}</h4>
+            <li style="position: relative; bottom: 90px; left: 150px"><h2>Place</h2>
+            <h4 style="font-size: 50px">{{athlete.indiv_free_place}}</h4></li>
+        </ul>
+    </div>
+</div>
+
+<div id="team">
+    <div class="col-md-4">
+        <h3>Team Event</h3>
+        <h2>{{athlete.team_event}}</h2>
+        <br>
+        <ul class="short">
+            <h2>Score</h2>
+            <h4 style="font-size: 50px">{{athlete.team_event_score}}</h4>
+            <li style="position: relative; bottom: 90px; left: 150px"><h2>Place</h2>
+            <h4 style="font-size: 50px">{{athlete.team_score}}</h4></li>
+        </ul>
+    </div>
+</div>
+    
+
+<div id="video">
+<iframe width="650" height="350" src="//www.youtube.com/embed/{{athlete.video}}?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+
+{% endblock %}

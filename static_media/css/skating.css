@@ -1,0 +1,147 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=News+Cycle:400,700);
+
+
+
+#bio li{
+    list-style-type: none;
+    display: block;
+    position: relative;
+    left: 460px;
+    bottom: 262px;
+}
+
+#bio h1, h2{
+    margin-left: -15px;
+}
+
+#video{
+    margin-top: -1040px;
+}
+
+#indiv, #team{
+    position: relative;
+    left: 680px;
+    bottom: 540px;
+    border-left: solid;
+    list-style: none;
+
+    
+}
+
+#team{
+    position: relative;
+    bottom: 690px;
+}
+
+.free{
+    position: relative;
+    bottom: 100px;
+    list-style: none;   
+}
+.short{
+    list-style: none;
+}
+
+img{
+    width: 50%;
+    height: 10%;
+    margin-left: -15px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-transform: uppercase;
+    color: #1A2944;
+}
+
+h2{
+    font: Droid Sans;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-left: 3px;
+}
+
+h3{
+    font: Droid Sans;
+    text-transform: uppercase;
+    color: #000;
+    
+}
+
+h4{
+    font: News Cycle;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+h5{
+    text-transform: uppercase;
+}
+
+
+#intro{
+    padding-left: 50px;
+    padding-top: 80px;
+    
+}
+
+@media (min-width: 3000px)
+.container{
+    margin-top: 50px;
+    max-width: 1000px;
+    
+
+}
+
+
+
+nav ul ul {
+	display: none;
+        
+        
+}
+	nav ul li:hover > ul {
+		display: block;
+                    
+	}
+nav ul{
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    padding-left: 20px;
+
+}
+
+nav ul li{
+    float: left;
+    
+}
+
+
+nav ul li a {
+    padding: 10px 5px 5px 10px;
+    display: block;
+    border-bottom: solid;
+    
+}
+
+.navhere{
+    padding-left: 90px;
+ 
+}
+
+#athlete_list{
+    margin-top: 20px;
+}
+
+
+
+
+        
+

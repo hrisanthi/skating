@@ -1,0 +1,82 @@
+[
+    {
+    "pk": 1,
+    "model": "skating.IndividualEvent",
+    "fields": {
+        "event": "Pairs",
+        "short_score": 67.44,
+        "short_place": 9,
+        "free_score": 120.28,
+        "free_place": 9,
+        "overall": 9
+        }
+    },
+    
+    
+    {
+    "pk": 2,
+    "model": "skating.IndividualEvent",
+    "fields": {
+        "event": "Men",
+        "short_score": 86.00,
+        "short_place": 6,
+        "free_score": 152.27,
+        "free_place": 11,
+        "overall":9
+        }
+    },
+    
+    {
+    "pk": 3,
+    "model": "skating.IndividualEvent",
+    "fields": {
+        "event": "Men",
+        "short_score": 72.58,
+        "short_place":15,
+        "free_score": 160.12,
+        "free_place": 8,
+        "overall": 12
+        }
+    },
+    
+    {
+    "pk": 4,
+    "model": "skating.IndividualEvent",
+    "fields": {
+        "event": "Ice Dance",
+        "short_score": 78.89,
+        "short_place":1,
+        "free_score":116.63,
+        "free_place": 1,
+        "overall": 1
+        }
+    },
+    
+    {
+    "pk": 5,
+    "model": "skating.IndividualEvent",
+    "fields": {
+        "event": "Ladies",
+        "short_score": 68.63,
+        "short_place": 4,
+        "free_score":136.34,
+        "free_place":5,
+        "overall":5
+        }
+    },
+    
+    {
+    "pk": 6,
+    "model": "skating.IndividualEvent",
+    "fields": {
+        "event": "Ladies",
+        "short_score": 65.21,
+        "short_place":6,
+        "free_score":127.99,
+        "free_place":7,
+        "overall":7
+        }
+    }
+]
+    
+    

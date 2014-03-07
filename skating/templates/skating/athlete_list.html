@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<div id="athlete_list">
+    <ul>
+        {% for athlete in athletes %}
+        <h1><a href= "{{athlete.id}}">{{ athlete.name }}</a></h1>
+                <img src="{{ athlete.img }}">
+        <h3 style="position: relative; left: 500px; bottom: 210px">Individual Event</h3>
+        <h2 style="position: relative; left: 500px; top: -210px;">{{athlete.indiv_event}}</h2>
+        <h3 style="position: relative; left: 500px; bottom: 210px">Team Event</h3>
+        <h2 style="position: relative; left: 500px; top: -200px;">{{athlete.team_event}}</h2>
+        
+
+    {% endfor%}
+    </ul>
+</div>
+{% endblock%}

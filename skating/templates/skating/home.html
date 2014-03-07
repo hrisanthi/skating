@@ -1,0 +1,30 @@
+{% extends "base.html"%}
+{% load url from future %}
+
+{%block content%}
+    </div>
+    
+
+<div id="back" style="background-image: url(http://i.huffpost.com/gen/1600593/thumbs/o-OLYMPIC-TEAM-570.jpg); background-size: 100%; max-width: 3000px">
+    <div class="container">
+<div id="intro">
+    <h1 style="font-size: 50px">the USA<br>
+FIGURE SKATING<br>
+OLYMPIC TEAM<br>
+TOOK BRONZE<br>
+AT SOCHI, RUSSIA<br>
+IN 2014</h1>
+
+    <a href= "{% url 'skating_athlete_list' %}"><h1>Meet the athletes</h1></a>
+
+            
+</div>
+
+
+</div>  
+<br>
+<br>
+<div class="container">
+</div>
+</div>
+{% endblock%}
